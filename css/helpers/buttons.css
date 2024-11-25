@@ -1,0 +1,99 @@
+/* HEADER */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var(--color_orange);
+  border-radius: 8px;
+
+  color: var(--color_orange);
+  text-decoration: none;
+  font-size: 18px;
+  height: 48px;
+  min-width: 160px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--color_orange);
+  color: var(--color_white);
+}
+
+/* HEADER### */
+
+/* MAIN */
+
+.btn--flexible {
+  min-width: 136px;
+  height: 50px;
+}
+
+.btn__arrow {
+  width: 16px;
+  height: 8px;
+  mask-image: url(../../imgs/card_server_arrow.svg);
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  background-color: var(--color_orange);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  margin-left: 14px;
+}
+
+.btn--flexible:hover .btn__arrow {
+  background-color: var(--color_white);
+  transform: translateX(5px);
+}
+
+.submit_btn {
+  min-width: 102px;
+  height: 48px;
+  border-radius: 8px;
+  margin: 0 auto;
+  border: 1px solid var(--color_orange);
+
+  background-color: var(--color_orange);
+  color: var(--color_white);
+
+  transition: all 0.3s ease-in-out;
+
+  cursor: pointer;
+}
+
+.submit_btn:hover {
+  background-color: var(--color_white);
+  color: var(--color_orange);
+}
+
+/* MAIN### */
+
+/* FOOTER */
+.btn_subscribe {
+  width: 102px;
+  height: 48px;
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.87px;
+
+  background-color: var(--color_orange);
+  color: var(--color_white);
+
+  flex-shrink: 0;
+
+  cursor: pointer;
+
+  margin-right: 6px;
+}
+
+.btn_subscribe:active {
+  background-color: #c23a00;
+}
+
+/* FOOTER### */

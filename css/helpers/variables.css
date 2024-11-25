@@ -1,0 +1,14 @@
+:root {
+  --text_color: #292830;
+  --color_orange: #ff7235;
+  --descr_color: #bdbdbd;
+  --color_white: #ffffff;
+
+  --section_color: #fffaf8;
+
+  --header_height: 55px;
+  --section_min-height: 820px;
+  --footer_min-height: 530px;
+
+  --container_max-width: 1170px;
+}

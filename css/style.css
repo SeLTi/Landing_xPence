@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,700;1,700&display=swap');
+@import url(./blocks/header.css);
+@import url(./blocks/main.css);
+@import url(./blocks/footer.css);
+@import url(./helpers/variables.css);
+@import url(./helpers/buttons.css);
+@import url(./blocks/media_screens.css);
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: var(--container_max-width);
+  width: 100%;
+
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
